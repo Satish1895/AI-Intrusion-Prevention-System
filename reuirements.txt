@@ -1,0 +1,9 @@
+flask
+flask-socketio
+paho-mqtt
+pandas
+numpy
+scikit-learn
+xgboost
+joblib
+imblearn
