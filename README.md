@@ -1,8 +1,31 @@
 # 🛡️ Distributed AI Intrusion Prevention System (IPS)
 
-This project features a **Distributed Architecture** designed to monitor network traffic across multiple devices using **MQTT** and **XGBoost**. It acts as a proactive security layer that not only detects threats but issues automated blocking commands.
+This project is a real-time network security solution that utilizes **XGBoost** machine learning to detect and automatically mitigate cyber threats. It features a distributed microservices architecture using **MQTT** for communication and a live **Flask-SocketIO** dashboard for visualization.
 
 
+
+## 🛠️ Requirements & Installation
+
+### 1. Prerequisites
+* **Python 3.8+**
+* **MQTT Broker:** You must have an MQTT broker installed and running.
+    * *Recommended:* **Eclipse Mosquitto**.
+    * **Windows:** Download the installer from the official Mosquitto website.
+    * **Linux:** `sudo apt install mosquitto mosquitto-clients`.
+
+### 2. Setup & Installation
+```bash
+# Clone the repository
+git clone [https://github.com/Satish1895/AI-Intrusion-Prevention-System.git](https://github.com/Satish1895/AI-Intrusion-Prevention-System.git)
+cd AI-Intrusion-Prevention-System
+
+# Create a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt 
+```
 
 ## 📱 Two-Device Demo Setup
 To demonstrate the "Distributed" nature of the system, you can use two separate devices on the same Wi-Fi network:
